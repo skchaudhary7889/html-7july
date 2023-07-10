@@ -1,0 +1,107 @@
+/* 3 july css learn */
+
+/* three way css are apply in html - inline,external,internal and i m using in all  */
+*{
+    background-color: cornsilk;
+
+}
+
+.tables{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+th{
+    color:blue;
+} 
+td{
+    color:white;
+    background-color: black;;
+} 
+
+.names{
+    background-color: tomato;
+    color: orang
+    
+}
+
+#myname{
+    color:aqua;
+    font-size: 20px;
+    background-color: black;
+}
+
+.footer{
+    text-align: center;
+
+}
+
+
+/* calcualtor css */
+
+section h2{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+section .calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.column .screen input{
+    margin: 0;
+    width: 305px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    font-size: 20px;
+   text-align: right;
+    
+}
+.column .key{
+    margin-top: 2px;
+    
+
+}
+.column .key .button{
+ background-color: black;
+  border-radius: 10px 8px;
+  font-size: 25px;
+  width: 75px;
+  height: 5vh;
+  padding: 5px;
+  color: white;
+}
+/* end*/
+
+/* important rule ,comment it and you check to remove from comment */
+/* #myid {
+    background-color: blue;
+  }
+  
+  .myclass {
+    background-color: gray;
+  }
+  
+  p {
+    background-color: red !important;
+  } */
+
+
+  .todo{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+  }
